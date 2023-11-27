@@ -1,0 +1,128 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void CarMovement_Start_m3E0A658723E11A1D14F19B0C6A39BA408676AEBD (void);
+extern void CarMovement_Update_mBE2440FD97EFEEB8653B5BFE408D8D46D2803295 (void);
+extern void CarMovement__ctor_mEA4B03836DE7E3F629FA8C6E80BE5CA910A9A358 (void);
+extern void PlayerCollision_Start_mD60A6F51E85F7DEBA15E466AAF3E316AC7DFF251 (void);
+extern void PlayerCollision_Update_m700F534BA1EF57A4488806C40860972FC646CD25 (void);
+extern void PlayerCollision_OnCollisionEnter_m58A1F3B128D352BE0F7FA2ACFB9C397F4B1D927E (void);
+extern void PlayerCollision__ctor_m2B517E2A67CB6CD0106F5C8D78F229F2CBEAE1B9 (void);
+extern void RestartButton_Start_m55BD53DD949B816D464491B6DAC8EAEF4640F306 (void);
+extern void RestartButton_Update_m8822976753B7C8AC4AA66646C614CD180E01D5C3 (void);
+extern void RestartButton_RestartGame_m6936445F8A1C111606DAD83981F6F03C60DF5528 (void);
+extern void RestartButton__ctor_m8251D811ED0C03C50E783899B89A558BB45B44E8 (void);
+extern void ScoreSystem_Start_m0B4C6077195DF7D69A56FF47D4ECE3370A804481 (void);
+extern void ScoreSystem_Update_m94C8F1335F9DF5E1FD783E6CC88D6F712974F67B (void);
+extern void ScoreSystem_GameOver_m4D50592BA248E8FDEC188659663B6CF069A75A42 (void);
+extern void ScoreSystem_RestartTimer_mC6783566453A34429C7066FA59E9BF4B6B270C0D (void);
+extern void ScoreSystem__ctor_m1F2BE55DDCF8A3AFF5EB5C6B55F705905D4E2925 (void);
+extern void SpawnManager_Start_m65C9EA67649948222CFF4FBBF77BE2319D813DAF (void);
+extern void SpawnManager_Update_mD714BA3EADCC182FB7A93B9DE347D727E3A1BC53 (void);
+extern void SpawnManager_spawn_obstacle_m367D84A77CD101ACBF721417A359511A55B1E6C7 (void);
+extern void SpawnManager_GameOver_mFA3497249025BE86817956B7531F0726650486EE (void);
+extern void SpawnManager__ctor_m8DD503A0FFE79FA38CF0B7F013E54D24A04D166A (void);
+extern void U3Cspawn_obstacleU3Ed__8__ctor_m9341334D7EF33182C4E05CFE711D3E6D4B772847 (void);
+extern void U3Cspawn_obstacleU3Ed__8_System_IDisposable_Dispose_m18A9B2BBAF0F493C67F75034AA66C9CF1A830270 (void);
+extern void U3Cspawn_obstacleU3Ed__8_MoveNext_m3DD149F43DF4559B98B562C8A5763397C557E740 (void);
+extern void U3Cspawn_obstacleU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE2BBC5CBA99B0968110C7FE4841BFC83750E06EA (void);
+extern void U3Cspawn_obstacleU3Ed__8_System_Collections_IEnumerator_Reset_m52E99F1E3907C30A1184C8C253B1B9A44D2037AB (void);
+extern void U3Cspawn_obstacleU3Ed__8_System_Collections_IEnumerator_get_Current_mD3253312E25CBA5EE314D38A7F3C5C1C90F50807 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[29] = 
+{
+	CarMovement_Start_m3E0A658723E11A1D14F19B0C6A39BA408676AEBD,
+	CarMovement_Update_mBE2440FD97EFEEB8653B5BFE408D8D46D2803295,
+	CarMovement__ctor_mEA4B03836DE7E3F629FA8C6E80BE5CA910A9A358,
+	PlayerCollision_Start_mD60A6F51E85F7DEBA15E466AAF3E316AC7DFF251,
+	PlayerCollision_Update_m700F534BA1EF57A4488806C40860972FC646CD25,
+	PlayerCollision_OnCollisionEnter_m58A1F3B128D352BE0F7FA2ACFB9C397F4B1D927E,
+	PlayerCollision__ctor_m2B517E2A67CB6CD0106F5C8D78F229F2CBEAE1B9,
+	RestartButton_Start_m55BD53DD949B816D464491B6DAC8EAEF4640F306,
+	RestartButton_Update_m8822976753B7C8AC4AA66646C614CD180E01D5C3,
+	RestartButton_RestartGame_m6936445F8A1C111606DAD83981F6F03C60DF5528,
+	RestartButton__ctor_m8251D811ED0C03C50E783899B89A558BB45B44E8,
+	ScoreSystem_Start_m0B4C6077195DF7D69A56FF47D4ECE3370A804481,
+	ScoreSystem_Update_m94C8F1335F9DF5E1FD783E6CC88D6F712974F67B,
+	ScoreSystem_GameOver_m4D50592BA248E8FDEC188659663B6CF069A75A42,
+	ScoreSystem_RestartTimer_mC6783566453A34429C7066FA59E9BF4B6B270C0D,
+	ScoreSystem__ctor_m1F2BE55DDCF8A3AFF5EB5C6B55F705905D4E2925,
+	SpawnManager_Start_m65C9EA67649948222CFF4FBBF77BE2319D813DAF,
+	SpawnManager_Update_mD714BA3EADCC182FB7A93B9DE347D727E3A1BC53,
+	SpawnManager_spawn_obstacle_m367D84A77CD101ACBF721417A359511A55B1E6C7,
+	SpawnManager_GameOver_mFA3497249025BE86817956B7531F0726650486EE,
+	SpawnManager__ctor_m8DD503A0FFE79FA38CF0B7F013E54D24A04D166A,
+	U3Cspawn_obstacleU3Ed__8__ctor_m9341334D7EF33182C4E05CFE711D3E6D4B772847,
+	U3Cspawn_obstacleU3Ed__8_System_IDisposable_Dispose_m18A9B2BBAF0F493C67F75034AA66C9CF1A830270,
+	U3Cspawn_obstacleU3Ed__8_MoveNext_m3DD149F43DF4559B98B562C8A5763397C557E740,
+	U3Cspawn_obstacleU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE2BBC5CBA99B0968110C7FE4841BFC83750E06EA,
+	U3Cspawn_obstacleU3Ed__8_System_Collections_IEnumerator_Reset_m52E99F1E3907C30A1184C8C253B1B9A44D2037AB,
+	U3Cspawn_obstacleU3Ed__8_System_Collections_IEnumerator_get_Current_mD3253312E25CBA5EE314D38A7F3C5C1C90F50807,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[29] = 
+{
+	4430,
+	4430,
+	4430,
+	4430,
+	4430,
+	3567,
+	4430,
+	4430,
+	4430,
+	4430,
+	4430,
+	4430,
+	4430,
+	4430,
+	4430,
+	4430,
+	4430,
+	4430,
+	4332,
+	4430,
+	4430,
+	3542,
+	4430,
+	4257,
+	4332,
+	4430,
+	4332,
+	6375,
+	4430,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	29,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
